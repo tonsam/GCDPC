@@ -18,3 +18,11 @@ mex_dc_evaluate.mexw64		mex function to evaluate dc via 2D integral image
 mex_permutohedral.mexw64	permutohedral lattice that used to speed up global Gaussian filtering
 
 normalize.m			          function to normalized the data before each algorithm
+
+DPCProcess.m              the common process function that the hierarchy alogrithm use
+
+fun_imp_hierarchy.m       the main function of hierarchy algorithm, based on the input parameters to select which level to run.
+
+parameter_CBD_trips_locations_0901.mat  the example input data of the second level clustering
+
+mex_permutohedral.mexw64  the new version of permutohedral which normalize the output in the end
